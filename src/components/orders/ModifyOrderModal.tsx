@@ -83,7 +83,7 @@ const ModifyOrderModal: React.FC<Props> = ({ order, isOpen, onClose, onSubmit })
           <div className="border-t pt-4">
             <div className="flex justify-between text-lg font-semibold mb-4">
               <span>Total:</span>
-              <span>${total.toFixed(2)}</span>
+              <span>BIF {total.toFixed(2)}</span>
             </div>
             <div className="flex gap-4">
               <button

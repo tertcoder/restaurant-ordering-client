@@ -35,14 +35,14 @@ const OrderCard: React.FC<Props> = ({ order, onUpdate }) => {
             <span>
               {item.quantity}x {item.name}
             </span>
-            <span>${(item.price * item.quantity).toFixed(2)}</span>
+            <span>BIF {(item.price * item.quantity).toFixed(2)}</span>
           </div>
         ))}
       </div>
       <div className="mt-4 pt-4 border-t">
         <div className="flex justify-between font-semibold">
           <span>Total</span>
-          <span>${order.totalPrice.toFixed(2)}</span>
+          <span>BIF {order.totalPrice.toFixed(2)}</span>
         </div>
       </div>
       <OrderActions order={order} onUpdate={onUpdate} />

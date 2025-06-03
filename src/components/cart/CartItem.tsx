@@ -14,7 +14,7 @@ const CartItem: React.FC<Props> = ({ item }) => {
     <div className="flex items-center py-4 border-b">
       <div className="flex-grow">
         <h3 className="text-lg font-semibold">{item.name}</h3>
-        <p className="text-gray-600">${item.price.toFixed(2)}</p>
+        <p className="text-gray-600">BIF {item.price.toFixed(2)}</p>
       </div>
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-2">

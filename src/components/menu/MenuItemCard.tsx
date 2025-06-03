@@ -32,7 +32,7 @@ const MenuItemCard: React.FC<Props> = ({ item }) => {
         <h3 className="text-xl font-semibold mb-2">{item.name}</h3>
         <p className="text-gray-600 mb-4">{item.category}</p>
         <div className="flex justify-between items-center">
-          <span className="text-2xl font-bold">${item.price.toFixed(2)}</span>
+          <span className="text-2xl font-bold">BIF {item.price.toFixed(2)}</span>
           <button
             onClick={handleAddToCart}
             disabled={!item.available}

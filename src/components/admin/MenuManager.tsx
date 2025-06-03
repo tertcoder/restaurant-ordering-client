@@ -96,7 +96,7 @@ const MenuManager = () => {
             />
             <h3 className="text-lg font-semibold">{item.name}</h3>
             <p className="text-gray-600">{item.category}</p>
-            <p className="text-lg font-bold mt-2">${item.price.toFixed(2)}</p>
+            <p className="text-lg font-bold mt-2">BIF {item.price.toFixed(2)}</p>
             <p className={`text-sm ${item.available ? 'text-green-600' : 'text-red-600'}`}>
               {item.available ? 'Available' : 'Sold Out'}
             </p>

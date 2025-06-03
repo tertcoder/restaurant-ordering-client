@@ -55,7 +55,7 @@ const Cart = () => {
         <div className="mt-6 pt-6 border-t">
           <div className="flex justify-between text-xl font-semibold">
             <span>Total:</span>
-            <span>${total.toFixed(2)}</span>
+            <span>BIF {total.toFixed(2)}</span>
           </div>
           <button
             onClick={handleCheckout}

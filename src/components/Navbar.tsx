@@ -55,7 +55,7 @@ const Navbar = () => {
                 <span className="text-gray-600">{user.username}</span>
                 <button
                   onClick={handleLogout}
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-gray-600 h-6 w-6 hover:text-gray-900"
                 >
                   <LogOut className="h-6 w-6" />
                 </button>
